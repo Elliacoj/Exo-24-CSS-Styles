@@ -52,6 +52,7 @@ div > blockquote {
 
 th {
     text-decoration-line: underline;
+    border: 1px solid black;
 }
 
 ul {
@@ -60,4 +61,12 @@ ul {
 
 ul > li:before {
     content: "*";
+}
+
+table {
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
 }
