@@ -52,6 +52,7 @@ div > blockquote {
 
 th {
     text-decoration-line: underline;
+    border-collapse: collapse;
     border: 1px solid black;
 }
 
@@ -64,9 +65,10 @@ ul > li:before {
 }
 
 table {
+    border-collapse: collapse;
     border: 1px solid black;
 }
-
 td {
+    border-collapse: collapse;
     border: 1px solid black;
 }
